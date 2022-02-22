@@ -18,7 +18,7 @@ export const Navbar = ({ toggle }) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to="/">DG Portfolio</NavLogo>
+                    <NavLogo to="/">DG Design</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
@@ -37,7 +37,7 @@ export const Navbar = ({ toggle }) => {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/signin">Sign In</NavBtnLink>
+                        <NavBtnLink to="/contact">Contact Me</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-    color: white;
+    color: #fff;
     background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')}
     ;
 
@@ -62,7 +62,7 @@ export const TopLine = styled.p`
 `;
 
 export const Heading = styled.h1`
-    // color: white;
+    // color: #fff;
     margin-bottom: 24px;
     font-size: 48px;
     line-height: 1.1;
@@ -85,6 +85,7 @@ export const Subtitle = styled.p`
 export const BtnWrap = styled.div`
     display: flex;
     justify-content: flex-start;
+    color: black;
 `;
 
 export const ImgWrap = styled.div`
