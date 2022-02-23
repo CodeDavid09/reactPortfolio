@@ -1,15 +1,16 @@
 import React from 'react';
-import {FaBars} from 'react-icons/fa'
-import { 
-    Nav, 
-    NavbarContainer, 
-    NavLogo, 
-    MobileIcon, 
+import { FaBars } from 'react-icons/fa';
+import {
+    Nav,
+    NavbarContainer,
+    NavLogo,
+    MobileIcon,
     NavMenu,
     NavItem,
     NavLinks,
     NavBtn,
-    NavBtnLink } from './NavbarElements';
+    NavBtnLink,
+} from './NavbarElements';
 
 
 
@@ -18,7 +19,7 @@ export const Navbar = ({ toggle }) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to="/">DG Design</NavLogo>
+                    <NavLogo to="/">DG Web Development</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-    color: #fff;
+    color: #FFF;
     background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')}
     ;
 
@@ -98,3 +98,4 @@ export const Img = styled.div`
     margin: 0 0 10px 0;
     padding-right: 0; 
 `;
+

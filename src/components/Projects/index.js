@@ -1,7 +1,7 @@
 import React from 'react';
-import Icon1 from '../../images/svg1.svg'
-import Icon2 from '../../images/svg2.svg'
-import Icon3 from '../../images/svg3.svg'
+import Icon1 from '../../images/reactPortfolio.png'
+import Icon2 from '../../images/weatherDashboard.png'
+import Icon3 from '../../images/workdayScheduler.png'
 import { 
     ProjectsContainer,
     ProjectsH1,
