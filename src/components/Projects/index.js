@@ -19,18 +19,18 @@ const Projects = () => {
             <ProjectsWrapper>
                 <ProjectsCard>
                     <ProjectsIcon src={Icon1}/>
-                    <ProjectsH2>Project Placeholder</ProjectsH2>
-                    <ProjectsP>Description Placeholder</ProjectsP>
+                    <ProjectsH2>React Portfolio Placeholder</ProjectsH2>
+                    <ProjectsP>Create website/portfolio using React.js, include About me, projects, resume and a contact me.</ProjectsP>
                 </ProjectsCard>
                 <ProjectsCard>
                     <ProjectsIcon src={Icon2}/>
-                    <ProjectsH2>Project Placeholder</ProjectsH2>
-                    <ProjectsP>Description Placeholder</ProjectsP>
+                    <ProjectsH2>Weather Dashboard Placeholder</ProjectsH2>
+                    <ProjectsP>Build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. Use the OpenWeather One Call API to retrieve weather data for cities.</ProjectsP>
                 </ProjectsCard>
                 <ProjectsCard>
                     <ProjectsIcon src={Icon3}/>
-                    <ProjectsH2>Project Placeholder</ProjectsH2>
-                    <ProjectsP>Description Placeholder</ProjectsP>
+                    <ProjectsH2>Work Day Scheduler Placeholder</ProjectsH2>
+                    <ProjectsP>Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. Use the Moment.js library to work with date and time.</ProjectsP>
                 </ProjectsCard>
             </ProjectsWrapper>
         </ProjectsContainer>
