@@ -15,7 +15,7 @@ import {
     ImgWrap, 
     Img} from './InfoElements'
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, description, darkText, buttonLabel, img, alt, primary, dark, dark2 }) => {
+const InfoSection = ({lightBg, id, imgStart, topLine, skillTitle, skills, lightText, headline, description, darkText, buttonLabel, img, alt, primary, dark, dark2, dbTitle, dbSkills, otherSkills, otherTitle}) => {
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -26,8 +26,14 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, descr
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
+                                <TopLine>{skillTitle}</TopLine>
+                                <Subtitle darkText={darkText}>{skills}</Subtitle>
+                                <TopLine>{dbTitle}</TopLine>
+                                <Subtitle darkText={darkText}>{dbSkills}</Subtitle>
+                                <TopLine>{otherTitle}</TopLine>
+                                <Subtitle darkText={darkText}>{otherSkills}</Subtitle>
                                 <BtnWrap>
-                                    <Button to='home' 
+                                    <Button a href='https://github.com/CodeDavid09' 
                                     smooth={true}
                                     duration={500}
                                     spy={true}
@@ -42,7 +48,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, descr
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={img} alt={alt} />
+                                <Img src='../../images/skills.svg' alt={alt} />
                             </ImgWrap>
                         </Column2>
                     </InfoRow>

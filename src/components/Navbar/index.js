@@ -10,8 +10,8 @@ import {
     NavMenu,
     NavItem,
     NavLinks,
-    NavBtn,
-    NavBtnLink,
+    // NavBtn,
+    // NavBtnLink,
 } from './NavbarElements';
 
 
@@ -78,9 +78,9 @@ export const Navbar = ({ toggle }) => {
                                     Contact Me</NavLinks>
                             </NavItem>
                         </NavMenu>
-                        <NavBtn>
+                        {/* <NavBtn>
                             <NavBtnLink to="/contact">Contact Me</NavBtnLink>
-                        </NavBtn>
+                        </NavBtn> */}
                     </NavbarContainer>
                 </Nav>
             </IconContext.Provider>
