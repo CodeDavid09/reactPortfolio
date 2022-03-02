@@ -65,7 +65,7 @@ export const homeObjFour = {
     description: 'Lets start a conversation!',
     // buttonLabel: 'Lets start a conversation',
     imgStart: false,
-    img: require('/'),
+    img: require('../../images/skills.svg'),
     alt: "about me",
     dark: true,
     primary: true,

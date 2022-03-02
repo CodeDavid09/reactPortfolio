@@ -1,6 +1,5 @@
 import React from 'react';
 import {Button} from '../ButtonElement';
-
 import {
     InfoContainer, 
     InfoWrapper, 
@@ -48,7 +47,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, skillTitle, skills, lightT
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src='../../images/skills.svg' alt={alt} />
+                                <Img src={img} alt={alt} />
                             </ImgWrap>
                         </Column2>
                     </InfoRow>

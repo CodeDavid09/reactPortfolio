@@ -11,10 +11,10 @@ import {
     FooterContainer,
     FooterWrap,
     FooterLinksContainer,
-    FooterLinksWrapper,
-    FooterLinkItems,
-    FooterLinkTitle,
-    FooterLink,
+    // FooterLinksWrapper,
+    // FooterLinkItems,
+    // FooterLinkTitle,
+    // FooterLink,
     SocialMedia,
     SocialMediaWrap,
     SocialLogo,
@@ -32,7 +32,7 @@ const Footer = () => {
         <FooterContainer>
             <FooterWrap>
                 <FooterLinksContainer>
-                    <FooterLinksWrapper>
+                    {/* <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>About Us</FooterLinkTitle>
                                 <FooterLink to='/'>How it works</FooterLink>
@@ -55,7 +55,7 @@ const Footer = () => {
                                 <FooterLink to='/'>Agency</FooterLink>
                                 <FooterLink to='/'>Influencer</FooterLink>
                         </FooterLinkItems>
-                    </FooterLinksWrapper>
+                    </FooterLinksWrapper> */}
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>

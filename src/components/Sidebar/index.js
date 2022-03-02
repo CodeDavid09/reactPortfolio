@@ -6,7 +6,7 @@ import { SidebarContainer,
     SidebarMenu,  
     SidebarLink,
     SideBtnWrap,
-    SidebarRoutes
+    // SidebarRoutes
  } from './SidebarElements'
 
 const Sidebar = ({isOpen, toggle}) => {
@@ -22,7 +22,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to='contact' onClick={toggle}>Contact Me</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoutes to='/signin'>Sign In</SidebarRoutes>
+                    {/* <SidebarRoutes to='/signin'>Sign In</SidebarRoutes> */}
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
