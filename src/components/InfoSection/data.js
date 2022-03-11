@@ -48,7 +48,8 @@ export const homeObjThree = {
     otherSkills: 'GitHub, Trello, Bootstrap, & Bulma', 
     // buttonLabel: ' View My Resume',
     imgStart: false,
-    img: require('../../images/skills.svg'),
+    // remove require statement, host images to imgur and copy URL
+    img: ('../../images/skills.svg'),
     alt: "skills",
     dark: true,
     primary: true,

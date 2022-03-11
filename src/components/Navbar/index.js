@@ -21,7 +21,6 @@ export const Navbar = ({ toggle }) => {
 
     const changeNav = () => {
         if (window.scrollY >= 80) {
-            setScrollNav(true)
         } else {
             setScrollNav(false)
         }

@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "clean": "rm -rf node_modules",
-    "reinstall": "np[m run clean && npm install",
+    "reinstall": "npm run clean && npm install",
     "rebuild": "npm run clean && npm install && npm run build"
   },
   
