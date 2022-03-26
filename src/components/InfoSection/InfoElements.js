@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
     color: #fff;
-    background-color: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')}
+    background-color: ${({lightBg}) => (lightBg ? '#F9F9F9' : '#010606')}
     ;
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -84,7 +84,7 @@ export const Subtitle = styled.p`
 export const BtnWrap = styled.div`
     display: flex;
     justify-content: flex-start;
-    color: black;
+    color: #FFF;
 `;
 
 export const ImgWrap = styled.div`

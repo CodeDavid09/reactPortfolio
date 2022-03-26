@@ -1,20 +1,22 @@
 import React from 'react';
-import {Button} from '../ButtonElement';
+import { Button } from '../ButtonElement';
+import Icon4 from '../../images/me.jpg'
 import {
-    InfoContainer, 
-    InfoWrapper, 
-    InfoRow, 
-    Column1, 
-    Column2, 
-    TextWrapper, 
-    TopLine, 
-    Heading, 
-    Subtitle, 
-    BtnWrap, 
-    ImgWrap, 
-    Img} from './InfoElements'
+    InfoContainer,
+    InfoWrapper,
+    InfoRow,
+    Column1,
+    Column2,
+    TextWrapper,
+    TopLine,
+    Heading,
+    Subtitle,
+    BtnWrap,
+    ImgWrap,
+    Img
+} from './InfoElements'
 
-const InfoSection = ({lightBg, id, imgStart, topLine, skillTitle, skills, lightText, headline, description, darkText, buttonLabel, img, alt, primary, dark, dark2, dbTitle, dbSkills, otherSkills, otherTitle}) => {
+const InfoSection1 = ({ lightBg, id, imgStart, topLine, skillTitle, skills, lightText, headline, description, darkText, buttonLabel, img, alt, primary, dark, dark2, dbTitle, dbSkills, otherSkills, otherTitle }) => {
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -31,23 +33,20 @@ const InfoSection = ({lightBg, id, imgStart, topLine, skillTitle, skills, lightT
                                 <Subtitle darkText={darkText}>{dbSkills}</Subtitle>
                                 <TopLine>{otherTitle}</TopLine>
                                 <Subtitle darkText={darkText}>{otherSkills}</Subtitle>
-                                <BtnWrap>
-                                    <Button a href='https://github.com/CodeDavid09' 
-                                    smooth={true}
-                                    duration={500}
-                                    spy={true}
-                                    offset={-80}
-                                    primary={primary ? 1 : 0}
-                                    dark={dark ? 1 : 0}
-                                    dark2={dark2 ? 1 : 0}
-
-                                    >{buttonLabel}</Button>
-                                </BtnWrap>
                             </TextWrapper>
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={img} alt={alt} />
+                                <Img src={Icon4} alt={alt} />
+                                <BtnWrap>
+                                    <Button
+                                        type="button"
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                            window.location.href = 'https://docs.google.com/document/d/e/2PACX-1vSYgPdXPDeeN8YGFDu6iGwWO-Or7isNa0IGxpgs27lJYuhYXT-F027Jb04JyxMF7Ujh3RcSTU9zRIF7/pub';
+                                        }}
+                                    >Resume</Button>
+                                </BtnWrap>
                             </ImgWrap>
                         </Column2>
                     </InfoRow>
@@ -57,4 +56,4 @@ const InfoSection = ({lightBg, id, imgStart, topLine, skillTitle, skills, lightT
     )
 }
 
-export default InfoSection
+export default InfoSection1
